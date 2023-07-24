@@ -1,6 +1,6 @@
-#Group-33#
-##Platinum Coffee##
-**Welcome to the Platinum Coffee App project! This README file provides essential information about the team members and their individual roles in developing the app. The Platinum Coffee App is designed to offer a delightful coffee ordering experience to users and includes a homepage, a splash screen, and an add to cart feature.**
+# Group-33
+## Platinum Coffee##
+** Welcome to the Platinum Coffee App project! This README file provides essential information about the team members and their individual roles in developing the app. The Platinum Coffee App is designed to offer a delightful coffee ordering experience to users and includes a homepage, a splash screen, and an add to cart feature.**
 
 elormatefoe - 10981243 <br/>
 dani-osei - 10966043 <br/>
