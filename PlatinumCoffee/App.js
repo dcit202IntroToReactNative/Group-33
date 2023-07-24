@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StatusBar, FlatList,  TouchableOpacity, Image, StyleSheet } from 'react-native';
+import { View, Text, StatusBar, FlatList, Pressable, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { FontAwesome } from '@expo/vector-icons';
@@ -109,10 +109,9 @@ const DetailScreen = ({ route }) => {
           <Text style={styles.addToCartButtonText}>Add to Cart</Text>
         </TouchableOpacity>
         <Text style={styles.cartCountText}>Cart Count: {cartCount}</Text>
-        <TouchableOpacity onPress={handleAddToCart} style={styles.addToCartButton}>
-          <FontAwesome name="cart-plus" size={20} color="white" />
+         <Pressable style={styles.addToCartButton} onPress={() => alert('You have placed and order')}>
           <Text style={styles.addToCartButtonText}>Buy</Text>
-        </TouchableOpacity>
+        </Pressable>
       </View>
     </View>
   );
